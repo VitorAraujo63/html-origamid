@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #d7d7d7;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 100%;
+    margin-top: 40px;
+    display: grid;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-self: center;
+    
+}
+
+.navbar a {
+    font-size: 20px;
+    text-decoration: none;
+    background: #f7f7f7;
+    padding: 20px;
+    margin: 20px 0px 20px 0px;
+    color: #000;
+    border-radius: 6px;
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 100%;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+}
+
+.grid img {
+    max-width: 100%;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.text {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: right;
+    padding: 20px;
+}
+
+.titulo {
+    margin-top: 80px;
+    text-align: right;
+    
+}
+
+.descricao {
+    font-size: 20px;
+}
+
+.mais {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background: #ee2211;
+    padding: 20px 40px;
+    border-radius: 6px;
+}
+
+.traco {
+    position: relative;
+    place-self: end;
+    top: 2vw;
+    left: 2.7vw;
+    width: 70px;
+    border: 2px solid #ee2211;
+}
+
+.vantagens-text {
+    height: 80vh;
+    place-content: center;
+    text-align: right;
+    font-size: 64px;
+    background: #d7d7d7;
+    color: #7d7d7d;
+}
+
+.eletrico {
+    display: grid;
+    margin-left: 10%;
+    margin-top: 10%;
+    gap: 20px;
+    
+}
+
+.eletrico img {
+    width: 32px;
+    place-self: center;
+}
+
+.eletrico p {
+    margin-top: 10px;
+    font-size: 20px;
+    grid-column: 2;
+}
+
+.km {
+    display: grid;
+    margin-left: 10%;
+    margin-top: 10%;
+    gap: 20px;
+    
+}
+
+.km img {
+    width: 32px;
+    place-self: center;
+}
+
+.km p {
+    margin-top: 10px;
+    font-size: 20px;
+    grid-column: 2;
+}
+
+.rastreador {
+    display: grid;
+    margin-left: 10%;
+    margin-top: 10%;
+    gap: 20px;
+    
+}
+
+.rastreador img {
+    width: 32px;
+    place-self: center;
+}
+
+.rastreador p {
+    margin-top: 10px;
+    font-size: 20px;
+    grid-column: 2;
+}
+
+footer {
+    max-width: 100%;
+    background: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid #d7d7d7;
+}
